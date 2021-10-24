@@ -49,13 +49,10 @@
         liEls[index].scrollIntoView({ behavior: "smooth" });
         gsap.from(".carousel__slide", {
           duration:1,
-          repeat: -1,
-        //   ease: "back.in(1.5)",
           scale: 0.5,
         });
         gsap.to(".carousel__slide", {
           duration: 1,
-          repeat: -1,
           ease: "back.out(1.5)",
           scale: 1,
         });
