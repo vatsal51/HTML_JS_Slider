@@ -1,0 +1,81 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  border-bottom: 5px solid black;
+}
+
+.logo_container a {
+  display: inline-block;
+  background: #000;
+  vertical-align: middle;
+  border-radius: 25px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.logo_container a img {
+  width: 10px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+
+.left_arrow {
+  right: 20px;
+}
+
+.right_arrow {
+  left: 20px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.carousel .carousel__track-container {
+  border: 1px solid black;
+  height: 250px;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel .carousel__track-container .brand_logo {
+  height: 35px;
+}
+
+.carousel .carousel__track-container .carousel_track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.carousel .carousel__track-container .carousel_track .carousel__slide {
+  display: block;
+  list-style: none;
+}
+
+.carousel .carousel__track-container .carousel_track .carousel__slide img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 300px;
+  height: 200px;
+}
+/*# sourceMappingURL=style.css.map */
